@@ -12,6 +12,10 @@ body {
   padding-top: 0px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
 .big-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr); 
@@ -259,7 +263,7 @@ a {
 }
 
 .project1 {
-background-image: url('assets/comments.png');
+background-image: url('assets/comments-background.png');
 position:relative;
 }
 
@@ -345,6 +349,7 @@ position:relative;
   height:100%;
   width:100%;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
 }
 
 .popup:target{
@@ -352,18 +357,69 @@ position:relative;
 }
 
 .popup-content{
-  position:absolute;
+  position:fixed;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
   background-color: white;
+  height:800px;
+  width:1200px;
+  z-index: 3;
+  align-items: center;
+  overflow: auto
+}
+
+.popup-content h1{
+  padding-top: 50px;
+  text-align: center;
+  color:rgb(156, 46, 46)
+}
+
+.popup-content h2{
+  text-align: center;
+}
+
+.popup-content p{
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.popup-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.popup-content a {
+  color:rgb(156, 46, 46);
+}
+
+.popup-content a:hover {
+  color:rgb(236, 197, 5);
 }
 
 .close-popup{
   position:absolute;
-  top: 10px;
-  left:100px;
-  font-size: 20px;
+  top: 5px;
+  left:1150px;
+  font-size: 50px;
+  background-color: white;
+  color:#083a4a;
+}
+
+.close-popup:hover{
+  color:rgb(236, 197, 5);
+}
+
+.concert-list {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  font-size: 14px;
 }
 
 @keyframes fadeIn {
