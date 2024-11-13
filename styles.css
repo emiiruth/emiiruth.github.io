@@ -16,7 +16,7 @@ body {
     text-decoration: none;
   }
 
-  p {
+  .credit {
     display: flex;
     justify-content: center;
     align-items: center;
