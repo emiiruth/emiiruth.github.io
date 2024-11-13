@@ -16,6 +16,18 @@ body {
     text-decoration: none;
   }
 
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-justify: center;
+    padding: 5px;
+    font-size: 10px;
+    font-family: Arial, -apple-system, system-ui, 'Segoe UI';
+    color: rgb(255, 255, 255);
+  }
+
 .big-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr); 
@@ -236,7 +248,7 @@ body {
   grid-column: 1/6;
   display:grid;
   grid-template-columns: repeat(1, minmax(300px, 200px));
-  gap: 30px;
+  gap: 15px;
   padding: 10px;
   justify-content: center;
   text-decoration: none
@@ -301,7 +313,6 @@ position:relative;
     background-size: cover;
     background-position: cover;
     background: rgba(0, 0, 0, 0);
-    filter:blur(3px);
     transition:background 0.3s ease, filter 0.3s ease;
     z-index: -1;
   }
@@ -311,7 +322,7 @@ position:relative;
   }
 
 .project3 {
-  background-image: url('assets/concerts.JPG');
+  background-image: url('assets/trip.JPG');
   position:relative;
   }
   
@@ -325,7 +336,6 @@ position:relative;
     background-size: cover;
     background-position: cover;
     background: rgba(0, 0, 0, 0);
-    filter:blur(3px);
     transition:background 0.3s ease, filter 0.3s ease;
     z-index: -1;
   }
