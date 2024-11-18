@@ -462,7 +462,7 @@ position:relative;
     padding-left: 10px;
     padding-top: 10px;
     font-size:10px;
-    color: rgb(46, 156, 77);
+    color: rgb(46, 156, 77) !important;
   } 
 
 }
