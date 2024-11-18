@@ -456,7 +456,7 @@ position:relative;
   }
 
   .intro {
-    grid-column: 1 / -2;
+    grid-column: 1 / -1;
     grid-row: auto;
     padding: 20px 10px;
     padding-left: 10px;
