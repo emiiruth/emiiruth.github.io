@@ -449,24 +449,8 @@ position:relative;
 }
 
 
-/* .about-not-stats {
-  grid-column: 1 / 4;
-  grid-row: 4 / 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 10px;
-  padding-top: 40px;
-  padding-right: 20px;
-  text-decoration: none;
-  color: black;
-  display: block;
-  text-align: center;
-} */
-
-/* .about-photo img {
-  opacity: 0;
-  animation: fadeIn .75s ease-in forwards;
-  width: 500px;
-  height: auto; 
-} */
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
