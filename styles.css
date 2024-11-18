@@ -450,7 +450,27 @@ position:relative;
 
 
 @media (max-width: 600px) {
+
   .text {
-    font-size: 12px;
+    font-size: 10px;
   }
+
+  .intro {
+    opacity: 0;
+    animation: fadeIn .75s ease-in forwards;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+    padding-left: 400px;
+    padding-top: 40px;
+    text-decoration: none;
+    color: rgb(156, 46, 46);
+    display: block;
+    text-align: left;
+    font-size:10px
+  } 
+
 }
