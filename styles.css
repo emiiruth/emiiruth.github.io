@@ -461,7 +461,8 @@ position:relative;
     padding: 20px 10px;
     padding-left: 10px;
     padding-top: 10px;
-    font-size:10px
+    font-size:10px;
+    color: rgb(46, 156, 77);
   } 
 
 }
