@@ -6,6 +6,7 @@ body {
     padding: 5px;
     font-family: Arial, -apple-system, system-ui, 'Segoe UI';
     color: black;
+    font-size: 1vw;
   }
 
 .text p {
@@ -53,9 +54,9 @@ body {
 } 
 .intro-header {
   padding-top: 1px;
-  font-size: xx-large;
   font-weight: bold;
   color: rgb(236, 197, 5);
+  font-size: 2vw;
 }
   
 .intro-sub-header {
@@ -64,6 +65,7 @@ body {
   font-size: x-large;
   font-weight: bold;
   color: black;
+  font-size: 1.5vw;
 }
 
 .photo-blob { 
@@ -126,11 +128,11 @@ body {
   grid-column: 1/4;
   grid-row: 2 / 3;
   opacity: 0;
-  padding-left: 400px;
   animation: fadeIn .75s ease-in forwards;
   text-align: left;
   text-justify: auto;
-  padding-top: 170px;
+  padding-top: 15px;
+  z-index: 4;
 }
 
 .linkbar a {
@@ -138,21 +140,20 @@ body {
   padding: 15px;
   text-decoration: none;
   color:black;
+  font-size: 1vw;
 }
 
 .linkbar a:hover {
   text-align: center;
-  padding: 15px;
   text-decoration: none;
-  color: rgb(156, 46, 46);;
+  color: rgb(156, 46, 46);
 }
 
 .about-stats {
+  animation: fadeIn .75s ease-in forwards;
   grid-column: 2/5;
   grid-row: 5;
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 10px 120px;
   padding-top:0px;
   padding-left: 350px;
@@ -171,6 +172,7 @@ body {
 }
 
 .about-photo {
+  animation: fadeIn .75s ease-in forwards;
   grid-column: 1/2;
   grid-row: 5;
   transform: scale(28%) translate(170px, -400px); 
