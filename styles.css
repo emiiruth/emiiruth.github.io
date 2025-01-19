@@ -63,10 +63,10 @@ body {
 .intro-sub-header {
   padding-top: 3px;
   padding-bottom: 7px;
-  font-size: x-large;
+  font-size: medium;
   font-weight: bold;
   color: black;
-  font-size: 1.5vw;
+  /* font-size: 1.5vw; */
 }
 
 .photo-blob { 
@@ -141,7 +141,7 @@ body {
   padding: 15px;
   text-decoration: none;
   color:black;
-  font-size: 1vw;
+  font-size: small;
 }
 
 .linkbar a:hover {
