@@ -417,9 +417,9 @@ position:relative;
 }
 
 .close-popup{
-  position:absolute;
+  position:relative;
   top: 5px;
-  left:86vw;
+  left:68vw;
   font-size: 50px;
   background-color: white;
   color:#083a4a;
@@ -451,6 +451,13 @@ position:relative;
 #projects {
   padding-top: 250px; /* Adjust this value as needed */
   margin-top: -250px; /* Adjust this value as needed */
+}
+
+@media (max-width: 600px) {
+
+  .close-popup {
+  left:85vw;
+  }
 }
 
 /* 
