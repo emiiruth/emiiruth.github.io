@@ -6,7 +6,7 @@ body {
     padding: 5px;
     font-family: Arial, -apple-system, system-ui, 'Segoe UI';
     color: black;
-    font-size: 1.1vw;
+    font-size: 1vw;
   }
 
 .text p {
@@ -21,8 +21,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     text-justify: center;
+    margin-left: 100px;
     padding: 5px;
     font-size: 8px;
     font-family: Arial, -apple-system, system-ui, 'Segoe UI';
@@ -452,7 +453,7 @@ position:relative;
   margin-top: -250px; /* Adjust this value as needed */
 }
 
-
+/* 
 @media (max-width: 600px) {
 
   .text {
@@ -469,4 +470,4 @@ position:relative;
     color: rgb(46, 156, 77) !important;
   } 
 
-}
+} */
