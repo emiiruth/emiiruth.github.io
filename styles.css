@@ -6,7 +6,7 @@ body {
     padding: 5px;
     font-family: Arial, -apple-system, system-ui, 'Segoe UI';
     color: black;
-    font-size: 1vw;
+    font-size: 1.1vw;
   }
 
 .text p {
@@ -24,7 +24,7 @@ body {
     text-align: center;
     text-justify: center;
     padding: 5px;
-    font-size: 10px;
+    font-size: 8px;
     font-family: Arial, -apple-system, system-ui, 'Segoe UI';
     color: rgb(255, 255, 255);
   }
@@ -324,7 +324,7 @@ position:relative;
   }
 
 .project3 {
-  background-image: url('assets/trip.JPG');
+  background-image: url('assets/trailer.JPG');
   position:relative;
   }
   
@@ -374,8 +374,9 @@ position:relative;
   left:50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  height:800px;
-  width:1200px;
+  height: 60vh; 
+  width: 90vw;
+  max-width: 1200px;
   z-index: 3;
   align-items: center;
   overflow: auto
@@ -416,7 +417,7 @@ position:relative;
 .close-popup{
   position:absolute;
   top: 5px;
-  left:1150px;
+  left:86vw;
   font-size: 50px;
   background-color: white;
   color:#083a4a;
