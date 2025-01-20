@@ -454,10 +454,10 @@ position:relative;
 }
 
 @media (max-width: 1450px) {
-/* 
   .text {
-    font-size: 8px;
+    font-size: 10px;
   }
+  /* 
   .about-header{
     font-size: 10.5px;
   }
