@@ -172,6 +172,9 @@ body {
   font-weight: bold;
   color: rgb(236, 197, 5);
 }
+.about-header p {
+  padding-top: 0px;
+  }
 
 .about-photo {
   animation: fadeIn .75s ease-in forwards;
@@ -457,9 +460,7 @@ position:relative;
   .text {
     font-size: 10px;
   }
-<<<<<<< HEAD
 
-=======
   /* 
   .about-header{
     font-size: 10.5px;
@@ -487,6 +488,5 @@ position:relative;
   .close-popup {
     left:86vw;
     }
->>>>>>> f3669c45339b37a6bbd22f5ffc129df93c486d36
 
 }
